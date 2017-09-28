@@ -28,7 +28,7 @@ cd replica/ && docker build -t postgresql-replica . && docker run -p 5432:5432 -
 
 ## Connecting
 
-``
+```
 psql -h localhost -p 5432 -U docker # Primary
 psql -h localhost -p 5433 -U docker # Replica
 ```
